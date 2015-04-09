@@ -1,0 +1,8 @@
+server1 bob
+server2 bob messaged
+server3 alice messaged
+server4 nick messaged
+server3 nick messaged
+server3 alice messaged
+server5
+server6

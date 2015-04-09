@@ -1,0 +1,6 @@
+server1 bob
+server2 bob
+server3 alice
+server4 nick
+server3 nick
+server3 alice
