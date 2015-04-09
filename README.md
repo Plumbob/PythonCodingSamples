@@ -7,4 +7,4 @@ simple "puzzle" excercises.
 
 Required public libraries -- such as Flask -- are not included here.
 
-None of these demonstrate optimal solutions nor production-level code.
+None of these demonstrate optimal solutions nor production-ready code.
