@@ -183,12 +183,11 @@ def get_random_subnet_address(ip_addr, subnet_mask):
 
     # Generate a new, random IP address, then mask it with the inverse
     # of 'subnet_mask'
-    random_ip_addr = get_random_ip_address()
-
-    invert_subnet_mask = [invert_octet(x) for x in subnet_mask_list]
-
+    random_ip_addr        = get_random_ip_address()
+    invert_subnet_mask    = [invert_octet(x) for x in subnet_mask_list]
     masked_random_ip_addr = mask_ip_address(random_ip_addr, invert_subnet_mask)
 
+    # OR the two addresses together to create a new, random subnet address
     random_ip_addr = []
     for x,y in zip(masked_ip_addr, masked_random_ip_addr):
         new_octet = x | y
