@@ -1,4 +1,4 @@
-# PythoCodingSamples
+# PythonCodingSamples
 
 Various Python scripts intended as a demonstration of my coding style.
 
